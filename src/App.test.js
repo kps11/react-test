@@ -15,23 +15,23 @@ test('counter display starts at 0',()=>{
 
 })
 
-// test('render whithoout error',()=>{
-//    const wrapper = setUp();
-//    const appComponent = findByTestAttr(wrapper,"component-app")
-//    expect(appComponent.length).toBe(1)
-// })
+test('render whithoout error',()=>{
+   const wrapper = setUp();
+   const appComponent = findByTestAttr(wrapper,"component-app")
+   expect(appComponent.length).toBe(1)
+})
 
-// test('renders increment button',()=>{
-//    const wrapper = setUp()
-//    const appComponent = findByTestAttr(wrapper,"increment-counter")
-//    expect(appComponent.length).toBe(1)
-// })
+test('renders increment button',()=>{
+   const wrapper = setUp()
+   const appComponent = findByTestAttr(wrapper,"increment-counter")
+   expect(appComponent.length).toBe(1)
+})
 
-// test('renders counter display',()=>{
-//    const wrapper = setUp()
-//    const appComponent = findByTestAttr(wrapper,"counter-dispaly")
-//    expect(appComponent.length).toBe(1)
-// })
+test('renders counter display',()=>{
+   const wrapper = setUp()
+   const appComponent = findByTestAttr(wrapper,"counter-dispaly")
+   expect(appComponent.length).toBe(1)
+})
 
 
 
